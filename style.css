@@ -1,5 +1,3 @@
-/* Dimensions that work: 1576x938 px*/
-
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +8,6 @@ html,
 body {
     width: 1576px;
     height: 938px;
-    /* height: 100%; */
     font-size: 12pt;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     overflow-x: hidden;
@@ -53,11 +50,9 @@ li {
 .sidebar {
     width: 20%;
     height: 100%;
-    /* background-color: rgb(51, 49, 49); */
     background: #232526;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
     color: rgb(255, 255, 255);
     border-right: 4px solid rgb(71, 141, 255);
     overflow: auto;
@@ -103,7 +98,6 @@ li {
 /* ----------------- HEADER WITH MY NAME ----------------- */
 
 .myname {
-    /* background-color: rgba(68, 68, 68, 0.103); */
     background: #ECE9E6;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -120,7 +114,6 @@ li {
 /* ----------------- RIGHT SIDE OF THE DOC ----------------- */
 
 .mybio {
-    /* background-color: rgba(138, 138, 138, 0.11); */
     background: #ECE9E6;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
