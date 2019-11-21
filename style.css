@@ -1,0 +1,157 @@
+/* Dimensions that work: 1576x938 px*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+html,
+body {
+    width: 1576px;
+    height: 938px;
+    /* height: 100%; */
+    font-size: 12pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    text-align: center;
+}
+
+h1 {
+    font-size: 22pt;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: left;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+h4 {
+    text-align: left;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: rgb(71, 141, 255);
+}
+
+p {
+    line-height: 145%;
+}
+
+li {
+    padding-bottom: 5pt;
+    margin: 0;
+}
+
+/* ----------------- SIDEBAR ----------------- */
+
+.sidebar {
+    width: 20%;
+    height: 100%;
+    /* background-color: rgb(51, 49, 49); */
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: rgb(255, 255, 255);
+    border-right: 4px solid rgb(71, 141, 255);
+    overflow: auto;
+    float: left;
+    text-align: left;
+}
+
+.sidebar h3 {
+    color: rgb(71, 141, 255);
+    margin-bottom: 5px;
+}
+
+.myimg img {
+    width: 50%;
+    border-radius: 47%;
+    border: 3px solid rgb(71, 132, 206);
+    margin-left: 25%;
+    margin-top: 15%;
+}
+
+.contact, .languages {
+    margin-left: 5px;
+}
+
+.contact {
+    margin-top: 20%;
+}
+
+.contact ul, 
+.languages ul {
+    list-style: none;
+    margin-left: 5px;
+}
+
+.contact i {
+    padding-right: 5px;
+}
+
+.languages {
+    margin-top: 14%;
+}
+
+/* ----------------- HEADER WITH MY NAME ----------------- */
+
+.myname {
+    /* background-color: rgba(68, 68, 68, 0.103); */
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 15px 0;
+    margin: 0%;
+}
+
+.myname p {
+    margin-top: 15px;
+    text-align: center;
+}
+
+/* ----------------- RIGHT SIDE OF THE DOC ----------------- */
+
+.mybio {
+    /* background-color: rgba(138, 138, 138, 0.11); */
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    width: 80%;
+    height: 86.5%;
+    float: left;
+    text-align: left;
+    padding: 1% 3%; 
+}
+
+.mybio h2 {
+    text-align: left;
+    color: rgb(71, 141, 255);
+    text-decoration: underline rgb(71, 141, 255);
+    padding-bottom: 1%;
+    margin-top: 1%;
+}
+
+.work-history {
+    display: block;
+}
+
+.work-history h3 {
+    padding-top: 0;
+}
+
+.work-history ul {
+    padding-left: 2%;
+}
+
+.work-history p:first-of-type {
+    padding-bottom: 0.7%;
+}
